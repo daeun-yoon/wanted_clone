@@ -1,0 +1,60 @@
+.bar {
+  background-color: lightpink;
+  height: 50px;
+
+  nav {
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 110px 0 110px;
+    justify-content: space-between;
+    align-items: center;
+
+    .companyName {
+      font-size: 17px;
+      font-weight: 900;
+      display: flex;
+    }
+
+    .navMiddle {
+      width: 678px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .topic {
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        font-size: 14px;
+
+        li {
+          .content {
+            padding: 14px 14px;
+          }
+        }
+      }
+    }
+
+    .navEdge {
+      .options {
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        font-size: 14px;
+
+        .search {
+          cursor: pointer;
+        }
+
+        .content {
+          padding: 0 10px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
