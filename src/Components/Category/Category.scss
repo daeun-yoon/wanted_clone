@@ -1,4 +1,28 @@
-div {
-    height: 50px;
-    display: fixed;
+.categoryBox {
+    height: 120px;
+    // display: fixed;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+
+
+    .entire {
+        height: 60px;
+        display: flex;
+        margin: 0 110px;
+        padding: 20px 0 15px 0;
+
+    }
+
+    .categoryList {
+        display: flex;
+        margin: 0 110px;
+        padding-bottom: 20px;
+        font-size: 11px;
+
+        .boxIndustry {
+            display: flex;
+
+        }
+
+    }
 }
