@@ -1,0 +1,33 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 20px;
+
+    .filterButton {
+        border: 1px solid #e1e2e3;
+        background: none;
+        padding: 9px 15px;
+        margin-left: 10px;
+        cursor: pointer;
+
+    }
+
+    .filterDetail {
+        border-radius: 2px;
+        font-size: 13px;
+        font-weight: 400;
+
+
+    }
+
+    .ilDan {
+        margin-right: 5px;
+    }
+
+    // .sPan::before {
+    //     content: '\f005';
+    // }
+
+
+}
