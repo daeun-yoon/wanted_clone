@@ -1,0 +1,81 @@
+{
+
+    "category": [{
+            "categoryPic": "https://static.wanted.co.kr/images/tags/d4536952.jpg",
+            "industry": "F&B"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/675ed3b6.jpg",
+            "industry": "개발"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/974967d0.jpg",
+            "industry": "건설,시설"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/2eb98862.jpg",
+            "industry": "게임 제작"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/a5cfdc9e.jpg",
+            "industry": "경영, 비즈니스"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/9242fbde.jpg",
+            "industry": "고객서비스, 리테일"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/8d39d3a6.jpg",
+            "industry": "디자인"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/4a95ff52.jpg",
+            "industry": "마케팅, 광고"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/ac0cf75e.jpg",
+            "industry": "물류, 무역"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/43a5dd52.jpg",
+            "industry": "미디어"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/601ae856.jpg",
+            "industry": "법률, 법집행기관"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/87d8057c.jpg",
+            "industry": "엔지니어링, 설계"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/3c36ce46.jpg",
+            "industry": "영업"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/7952b34e.jpg",
+            "industry": "의료, 제작, 바이오"
+        },
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/6e0effd8.jpg",
+            "industry": "인사, 교육"
+        },
+
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/80c36024.jpg",
+            "industry": "정부, 비영리"
+        },
+
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/539a0896.jpg",
+            "industry": "제조, 생산"
+        },
+
+        {
+            "categoryPic": "https://static.wanted.co.kr/images/tags/9f8f0364.jpg",
+            "industry": "투자, 분석, 부동산"
+        }
+
+
+    ]
+}
