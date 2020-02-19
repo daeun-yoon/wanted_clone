@@ -8,7 +8,10 @@ class Category extends React.Component {
         <div className="entire">전체</div>
         <div className="categoryList">
           <ul className="boxIndustry">
-            <li className="industries">F&B</li>
+            <div>
+              <li className="industries">F&B</li>
+            </div>
+
             <li className="industries">개발</li>
             <li className="industries">건설,시설</li>
             <li className="industries">게임 제작</li>
