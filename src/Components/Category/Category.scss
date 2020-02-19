@@ -1,8 +1,9 @@
 .categoryBox {
-    height: 120px;
+    height: 140px;
     // display: fixed;
     background-color: #ffffff;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    overflow-x: hidden;
 
 
     .entire {
@@ -18,9 +19,16 @@
         margin: 0 110px;
         padding-bottom: 20px;
         font-size: 11px;
+        height: 60px;
+
 
         .boxIndustry {
             display: flex;
+            padding: 0 4px;
+
+
+
+
 
         }
 
