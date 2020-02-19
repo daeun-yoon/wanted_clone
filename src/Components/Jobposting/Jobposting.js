@@ -6,11 +6,7 @@ class jobPosting extends React.Component {
     return (
       <div className="jobPosting">
         <a href="https://www.wanted.co.kr/wd/34887?referer_id=841099">
-          <img
-            className="picture"
-            alt="회사사진"
-            src="https://static.wanted.co.kr/images/company/10643/0e3i1jxflfjlevuc__400_400.jpg"
-          />
+          <img className="picture" alt="회사사진" src={this.props.comLogo} />
           <div className="interest">
             <button className="likes">
               <img
@@ -18,22 +14,22 @@ class jobPosting extends React.Component {
                 alt="Heart"
                 src="https://colorhunt.co/img/color-hunt-palettes-icon-heart-blue.png"
               />
-              <span className="likesNum">30</span>
+              <span className="likesNum">{this.props.likesnum}</span>
             </button>
           </div>
         </a>
         <div className="jobInfo">
           <dl className="jobDetail">
-            <dt className="jobPosition">[외국계]건강기능식품 마케팅 PM</dt>
+            <dt className="jobPosition">{this.props.jobPosition}</dt>
             <dd className="compDetail">
-              시너지월드와이드코리아
+              {this.props.company}
               <br />
-              <span className="compDetail">서울</span>
+              <span className="compDetail">{this.props.city}</span>
               <sapn className="locationDot">.</sapn>
-              <span className="compDetail">한국</span>
+              <span className="compDetail">{this.props.country}</span>
             </dd>
           </dl>
-          <div className="compensation">채용보상금 1,000,000원</div>
+          <div className="compensation">{this.props.compensation}</div>
         </div>
       </div>
     );

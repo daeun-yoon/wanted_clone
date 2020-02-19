@@ -1,126 +1,17 @@
 .mainPage {
     background-color: #fff;
     width: 100%;
+    display: flex;
 
     .mainBox {
         // padding: 20px 0 80px 0;
         margin: 0 110px;
-        // width: 100%;
+        width: 100%;
         background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
 
-        .filter {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-            padding-top: 20px;
-
-            .filterButton {
-                border: 1px solid #e1e2e3;
-                background: none;
-                padding: 9px 15px;
-                margin-left: 10px;
-                cursor: pointer;
-
-            }
-
-            .filterDetail {
-                border-radius: 2px;
-                font-size: 13px;
-                font-weight: 400;
-
-
-            }
-
-            .ilDan {
-                margin-right: 5px;
-            }
-
-            // .sPan::before {
-            //     content: '\f005';
-            // }
-
-
-
-        }
-
-        .jobPosting {
-            padding: 10px;
-            width: 25%;
-
-            .picture {
-                background-size: 250px;
-                height: 188px;
-                border-radius: 4px;
-                position: relative;
-            }
-
-            .interest {
-
-                .likes {
-                    border-radius: 3px;
-                    position: absolute;
-                    width: 60px;
-                    height: 30px;
-                    border-radius: 3px;
-                    background: rgba(0, 0, 0, .3);
-                    color: #fff;
-                    font-size: 12px;
-                    font-weight: 400;
-
-
-                    .heart {
-                        width: 12px;
-                        height: 12px;
-                        margin-right: 5px;
-                    }
-                }
-
-            }
-
-
-
-
-            .jobInfo {
-                padding: 14px 10px;
-                height: 12.5em;
-
-                .jobDetail {
-                    margin-top: 8px;
-
-
-                    .jobPosition {
-                        font-size: 18px;
-                        font-weight: 600;
-                        margin-top: 10px;
-                    }
-
-                    .compDetail {
-                        font-size: 14px;
-                        font-weight: 400;
-                        color: #999999;
-                        margin-top: 8px;
-
-                        .locationDot {
-                            margin: 0 3px;
-                            top: -4px;
-                            position: relative;
-                        }
-                    }
-                }
-
-                .compensation {
-                    margin-top: 10px;
-                    font-weight: 400;
-                    font-size: 13px;
-                    color: #666666;
-                }
-
-
-
-
-            }
-        }
+        max-width: 1060px;
 
     }
-
 }
